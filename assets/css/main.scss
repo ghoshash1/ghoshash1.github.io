@@ -40,3 +40,9 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+// Override background to light color
+body {
+  background-color: #ffffff; // white (or try #f9f9f9 for softer light)
+  color: #111; // ensure dark text on light background
+}
