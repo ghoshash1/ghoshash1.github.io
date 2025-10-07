@@ -154,28 +154,20 @@ body,
   padding-top: 3.25rem;
 }
 
-/* --- Keep header visible while scrolling --- */
+/* --- Keep header visible while scrolling and avoid overlap --- */
 .masthead {
-  position: sticky;   /* or use fixed if you prefer it always at top */
+  position: sticky;   /* or use fixed if you prefer */
   top: 0;
   z-index: 1000;
+  border-bottom: 1px solid #e6e6e6;  /* subtle separator (optional) */
 }
 
-.initial-content {    /* prevents content from hiding under header */
-  padding-top: 3.25rem;   /* adjust if your masthead is taller/shorter */
+/* Push content below the sticky header */
+.initial-content {
+  padding-top: 140px !important;  /* adjust: 120–160 depending on your header height */
 }
-/* --- keep content clear of the sticky header --- */
-:root { --header-h: 90px; }    /* try 72–80px depending on your header size */
 
-.masthead { position: sticky; top: 0; z-index: 1000; }
-
-/* push the first content block below the header */
-.initial-content { padding-top: var(--header-h); }
-
-/* optional: also nudge the author card if needed */
-.author__avatar { margin-top: 0.5rem; }  /* safe no-op if already fine */
-
-/* small screens: header is taller, give a bit more space */
-@media (max-width: 900px) {
-  :root { --header-h: 84px; }
+/* Extra nudge for the author avatar if needed */
+.author__avatar {
+  margin-top: 0.5rem !important;
 }
