@@ -13,7 +13,7 @@
 
     "themes",
     "theme/default",
-    "theme/dark",
+    // "theme/dark",  // 🔸 Commented out to prevent dark background overrides
 
     "include/mixins",
     "vendor/susy/susy",
@@ -41,27 +41,36 @@
     "vendor/font-awesome/brands"
 ;
 
-// --- Custom visual overrides for clean white layout ---
+// =======================================================
+// Custom visual overrides for clean white layout
+// =======================================================
 
-/* Keep only header (masthead) dark */
+/* Make everything below the masthead white */
+html,
+body,
+.initial-content,
+.page,
+.page__inner,
+.page__content,
+.wrapper,
+.sidebar,
+.page__footer,
+.page__footer .footer__inner,
+.page__footer .page__footer-follow {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Keep only the top masthead dark */
 .masthead {
   background-color: #3a3a3a !important;  /* dark gray header */
   color: #ffffff !important;
 }
 
-/* Main body and sidebar white */
-body,
-.page,
-.page__content,
-.sidebar {
-  background-color: #ffffff !important;
-  color: #111 !important;   /* dark text for readability */
-}
-
-/* Footer white and subtle */
+/* Footer: subtle and white to blend with body */
 .page__footer {
-  background-color: #ffffff !important;
-  color: #666666 !important;   /* muted gray text */
   border-top: 1px solid #eaeaea;
   padding: 0.5rem 0;
+  color: #666666 !important;
+  background-color: #ffffff !important;
 }
