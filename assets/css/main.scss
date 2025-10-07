@@ -164,3 +164,18 @@ body,
 .initial-content {    /* prevents content from hiding under header */
   padding-top: 3.25rem;   /* adjust if your masthead is taller/shorter */
 }
+/* --- keep content clear of the sticky header --- */
+:root { --header-h: 72px; }    /* try 72–80px depending on your header size */
+
+.masthead { position: sticky; top: 0; z-index: 1000; }
+
+/* push the first content block below the header */
+.initial-content { padding-top: var(--header-h); }
+
+/* optional: also nudge the author card if needed */
+.author__avatar { margin-top: 0.5rem; }  /* safe no-op if already fine */
+
+/* small screens: header is taller, give a bit more space */
+@media (max-width: 900px) {
+  :root { --header-h: 84px; }
+}
