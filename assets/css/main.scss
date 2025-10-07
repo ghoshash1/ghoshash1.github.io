@@ -107,30 +107,34 @@ body,
   border-radius: 0 !important;
 }
 
-/* Header links + toggles readable on dark masthead */
+/* Make the entire top bar solid and restore nav visibility */
+.greedy-nav {
+  background: #2c3e50 !important;  /* match masthead color */
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* Ensure all links and menu items are visible on dark background */
 .greedy-nav a,
 .greedy-nav .visible-links > li > a,
+.greedy-nav .site-title,
 .greedy-nav .toggle,
-.greedy-nav .search__toggle,
-.site-title,
-.masthead .site-title {
+.greedy-nav .search__toggle {
   color: #ffffff !important;
+  font-weight: 500;
 }
 
-/* Optional hover accent */
+/* Hover color (optional accent) */
 .greedy-nav a:hover,
-.greedy-nav .visible-links > li > a:hover,
-.site-title:hover {
-  color: #f1c40f !important;
+.greedy-nav .visible-links > li > a:hover {
+  color: #f1c40f !important; /* gold accent on hover */
 }
 
-/* If a wrapper inside masthead is adding white, kill it */
-.masthead .wrapper {
-  background: transparent !important;
-}
-/* If a wrapper inside masthead is adding white, kill it */
-.masthead .wrapper {
-  background: transparent !important;
+/* Prevent inner wrapper from reintroducing white background */
+.masthead .wrapper,
+.masthead__inner-wrap {
+  background: #2c3e50 !important;
 }
 
 /* --- Keep header visible while scrolling --- */
