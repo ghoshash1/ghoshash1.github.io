@@ -61,16 +61,85 @@ body,
   color: #111111 !important;
 }
 
-/* Keep only the top masthead dark */
+/* Customize the top navigation bar color */
 .masthead {
-  background-color: #3a3a3a !important;  /* dark gray header */
+  background-color: #2c3e50 !important;   /* ← Change this to any color you like */
+  color: #ffffff !important;
+  border-bottom: none !important;
+}
+
+/* Make sure the inner area matches the masthead */
+.masthead__inner-wrap {
+  background-color: #2c3e50 !important;
   color: #ffffff !important;
 }
 
-/* Footer: subtle and white to blend with body */
-.page__footer {
-  border-top: 1px solid #eaeaea;
-  padding: 0.5rem 0;
-  color: #666666 !important;
-  background-color: #ffffff !important;
+/* Ensure links inside the header stay visible and white */
+.masthead a,
+.masthead__menu-item a,
+.site-title {
+  color: #ffffff !important;
+}
+
+.masthead a:hover,
+.masthead__menu-item a:hover,
+.site-title:hover {
+  color: #f1c40f !important; /* optional hover color (gold accent) */
+}
+
+/* Hide entire footer section */
+.page__footer,
+.page__footer-follow,
+.site-footer,
+.footer,
+.footer__inner {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* Make the entire top bar solid (no white pill) */
+.greedy-nav {
+  background: transparent !important;   /* remove white strip */
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* Header links + toggles readable on dark masthead */
+.greedy-nav a,
+.greedy-nav .visible-links > li > a,
+.greedy-nav .toggle,
+.greedy-nav .search__toggle,
+.site-title,
+.masthead .site-title {
+  color: #ffffff !important;
+}
+
+/* Optional hover accent */
+.greedy-nav a:hover,
+.greedy-nav .visible-links > li > a:hover,
+.site-title:hover {
+  color: #f1c40f !important;
+}
+
+/* If a wrapper inside masthead is adding white, kill it */
+.masthead .wrapper {
+  background: transparent !important;
+}
+/* If a wrapper inside masthead is adding white, kill it */
+.masthead .wrapper {
+  background: transparent !important;
+}
+
+/* --- Keep header visible while scrolling --- */
+.masthead {
+  position: sticky;   /* or use fixed if you prefer it always at top */
+  top: 0;
+  z-index: 1000;
+}
+
+.initial-content {    /* prevents content from hiding under header */
+  padding-top: 3.25rem;   /* adjust if your masthead is taller/shorter */
 }
