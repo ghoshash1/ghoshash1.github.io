@@ -107,34 +107,51 @@ body,
   border-radius: 0 !important;
 }
 
-/* Make the entire top bar solid and restore nav visibility */
-.greedy-nav {
-  background: #2c3e50 !important;  /* match masthead color */
+/* ==== NAV BAR: light background with dark links ==== */
+
+/* Make the top bar a clean white background */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead .wrapper,
+.masthead .masthead__menu .greedy-nav {
+  background-color: #ffffff !important;
+  color: #222222 !important; /* dark text color */
+  border: none !important;
   box-shadow: none !important;
-  border: 0 !important;
   border-radius: 0 !important;
 }
 
-/* Ensure all links and menu items are visible on dark background */
-.greedy-nav a,
-.greedy-nav .visible-links > li > a,
-.greedy-nav .site-title,
-.greedy-nav .toggle,
-.greedy-nav .search__toggle {
-  color: #ffffff !important;
+/* Make sure all navigation links are dark and readable */
+.masthead .greedy-nav a,
+.masthead .greedy-nav .visible-links > li > a,
+.masthead .greedy-nav .site-title,
+.masthead .greedy-nav .toggle,
+.masthead .greedy-nav .search__toggle {
+  color: #222222 !important; /* dark text color */
   font-weight: 500;
 }
 
-/* Hover color (optional accent) */
-.greedy-nav a:hover,
-.greedy-nav .visible-links > li > a:hover {
-  color: #f1c40f !important; /* gold accent on hover */
+/* Hover color (slightly accent, optional) */
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav .visible-links > li > a:hover,
+.masthead .greedy-nav .site-title:hover {
+  color: #0056b3 !important; /* navy accent on hover */
 }
 
-/* Prevent inner wrapper from reintroducing white background */
-.masthead .wrapper,
-.masthead__inner-wrap {
-  background: #2c3e50 !important;
+/* Prevent any nested elements from reintroducing color blocks */
+.masthead .greedy-nav * {
+  background: transparent !important;
+}
+
+/* Keep header visible when scrolling */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.initial-content {
+  padding-top: 3.25rem;
 }
 
 /* --- Keep header visible while scrolling --- */
