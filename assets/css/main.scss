@@ -165,7 +165,7 @@ body,
   padding-top: 3.25rem;   /* adjust if your masthead is taller/shorter */
 }
 /* --- keep content clear of the sticky header --- */
-:root { --header-h: 72px; }    /* try 72–80px depending on your header size */
+:root { --header-h: 80px; }    /* try 72–80px depending on your header size */
 
 .masthead { position: sticky; top: 0; z-index: 1000; }
 
