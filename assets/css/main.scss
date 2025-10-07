@@ -46,3 +46,18 @@ body {
   background-color: #ffffff; // white (or try #f9f9f9 for softer light)
   color: #111; // ensure dark text on light background
 }
+
+/* --- Custom override to remove or restyle the footer --- */
+
+/* Option 1: Hide the footer completely */
+.page__footer {
+  display: none !important;
+}
+
+/* Option 2: (alternative) Just make it white or transparent
+.page__footer {
+  background: #fff !important;  // or transparent
+  border-top: 1px solid #eaeaea;
+  padding: 0.5rem 0;
+}
+*/
