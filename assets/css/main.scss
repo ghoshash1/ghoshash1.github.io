@@ -41,23 +41,27 @@
     "vendor/font-awesome/brands"
 ;
 
-// Override background to light color
-body {
-  background-color: #ffffff; // white (or try #f9f9f9 for softer light)
-  color: #111; // ensure dark text on light background
+// --- Custom visual overrides for clean white layout ---
+
+/* Keep only header (masthead) dark */
+.masthead {
+  background-color: #3a3a3a !important;  /* dark gray header */
+  color: #ffffff !important;
 }
 
-/* --- Custom override to remove or restyle the footer --- */
-
-/* Option 1: Hide the footer completely */
-.page__footer {
-  display: none !important;
+/* Main body and sidebar white */
+body,
+.page,
+.page__content,
+.sidebar {
+  background-color: #ffffff !important;
+  color: #111 !important;   /* dark text for readability */
 }
 
-/* Option 2: (alternative) Just make it white or transparent
+/* Footer white and subtle */
 .page__footer {
-  background: #fff !important;  // or transparent
+  background-color: #ffffff !important;
+  color: #666666 !important;   /* muted gray text */
   border-top: 1px solid #eaeaea;
   padding: 0.5rem 0;
 }
-*/
