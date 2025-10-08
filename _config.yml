@@ -21,14 +21,17 @@ repository               : "academicpages/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 # Biographic information
-  avatar           : "DSCF4967.jpg"
-  name             : "Aishwarya Ghosh"
-  pronouns         : "she/her"  
-  #bio              : "Short biography for the left-hand sidebar"
-  location:        : "260 S Central Campus Dr 4100 Salt Lake City, Utah, 84102"
-  employer         : "University of Utah"
-  uri              : # URL
-  email            : "aishwarya.ghosh@utah.edu" 
+author:
+  avatar   : "DSCF4967.jpg"   # file must be in /images/DSCF4967.jpg
+  name     : "Aishwarya Ghosh"
+  pronouns : "she/her"
+  #bio     : "Short biography for the left-hand sidebar"
+  location : |
+    260 S Central Campus Dr #4100
+    Salt Lake City, Utah, 84102
+  employer : "University of Utah"
+  uri      :
+  email    : "aishwarya.ghosh@utah.edu"
 
   # Academic websites
   #academia         : # URL
