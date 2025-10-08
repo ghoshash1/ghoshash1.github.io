@@ -82,3 +82,10 @@ html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .si
   padding: 0 !important;
   visibility: hidden !important;
 }
+/* ===== Shift profile avatar downward slightly ===== */
+.author__avatar {
+  margin-top: 1.5rem !important;   /* increase to 2rem or 2.5rem for more spacing */
+}
+.author__content {
+  margin-top: 1.5rem !important;
+}
