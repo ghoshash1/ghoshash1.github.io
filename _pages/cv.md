@@ -1,14 +1,10 @@
 ---
-layout: single          # use single so content can be full width
+layout: single            # use a plain, wide page
 title: "CV"
 permalink: /cv/
 author_profile: true
-classes: wide           # make the content column wider
-redirect_from:
-  - /resume
+classes: wide
 ---
-
-{% include base_path %}
 
 <div class="cv-embed">
   <iframe
@@ -16,10 +12,11 @@ redirect_from:
     width="100%"
     height="100%"
     title="Aishwarya Ghosh — CV"
+    style="border:0;"
   ></iframe>
 </div>
 
-<p class="text-center" style="margin-top: 0.75rem;">
+<p class="text-center" style="margin-top:0.75rem;">
   📄 <a class="btn" href="{{ '/files/CV_Aishwarya_Ghosh_2025.pdf' | relative_url }}" target="_blank">
     Open CV in new tab
   </a>
