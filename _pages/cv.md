@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <p align="center">
-  📄 <a class="btn" href="{{ '/files/CV_AISHWARYA GHOSH_2025.pdf' | relative_url }}" target="_blank">
+  📄 <a class="btn" href="{{ '/files/CV_AISHWARYA_GHOSH_2025.pdf' | relative_url }}" target="_blank">
     Download Full CV (PDF)
   </a>
 </p>
