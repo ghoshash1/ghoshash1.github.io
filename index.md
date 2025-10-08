@@ -1,4 +1,11 @@
 Welcome to my website!
-I am a fifth-year PhD student in the [Department of Economics at the University of Utah](https://www.econ.utah.edu/).
+I am a PhD candidate in the [Department of Economics at the University of Utah](https://www.econ.utah.edu/).
 
-My research interests lie in applied microeconomics, industrial organization, and environmental economics. I am also interested in behavioral economics, particularly its applications in health and cognitive science.
+My research focuses on applied microeconomics, industrial organization, and environmental economics. I also work in behavioral economics, with a particular emphasis on its applications to health behavior and cognitive processes. I have experience teaching Microeconomics, Public Policy, Econometrics and Statistics at the graduate and undergraduate level.
+
+In my recent research, I explore how targeted policy interventions and market institutions shape pricing, adoption, and firm behavior in emerging clean-technology markets, with a focus on the electric vehicle (EV) sector.
+
+[aishwarya.ghosh@utah.edu](aishwarya.ghosh@utah.edu)
+260 S Central Campus Dr #4100 
+Salt Lake City,
+UT 84112
