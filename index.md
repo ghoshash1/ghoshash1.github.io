@@ -7,6 +7,6 @@ In my recent research, I explore how targeted policy interventions and market in
 
 [aishwarya.ghosh@utah.edu](aishwarya.ghosh@utah.edu)
 
-260 S Central Campus Dr #4100 
-Salt Lake City,
+260 S Central Campus Dr #4100 <br>
+Salt Lake City,<br>
 UT 84112
