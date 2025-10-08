@@ -45,129 +45,68 @@
 // Custom visual overrides for clean white layout
 // =======================================================
 
-/* Make everything below the masthead white */
-html,
-body,
-.initial-content,
-.page,
-.page__inner,
-.page__content,
-.wrapper,
-.sidebar,
-.page__footer,
-.page__footer .footer__inner,
-.page__footer .page__footer-follow {
-  background-color: #ffffff !important;
-  color: #111111 !important;
+/* ===== CLEAN FINAL HEADER + SPACING ===== */
+
+/* Make the whole site white */
+html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .sidebar {
+  background: #ffffff !important;
+  color: #111 !important;
 }
 
-/* Customize the top navigation bar color */
-.masthead {
-  background-color: #2c3e50 !important;   /* ← Change this to any color you like */
-  color: #ffffff !important;
-  border-bottom: none !important;
-}
-
-/* Make sure the inner area matches the masthead */
-.masthead__inner-wrap {
-  background-color: #2c3e50 !important;
-  color: #ffffff !important;
-}
-
-/* Ensure links inside the header stay visible and white */
-.masthead a,
-.masthead__menu-item a,
-.site-title {
-  color: #ffffff !important;
-}
-
-.masthead a:hover,
-.masthead__menu-item a:hover,
-.site-title:hover {
-  color: #f1c40f !important; /* optional hover color (gold accent) */
-}
-
-/* Hide entire footer section */
-.page__footer,
-.page__footer-follow,
-.site-footer,
-.footer,
-.footer__inner {
+/* Hide the footer entirely (keep only this version) */
+.page__footer, .page__footer-follow, .site-footer, .footer, .footer__inner {
   display: none !important;
-  visibility: hidden !important;
   height: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
+  visibility: hidden !important;
 }
-/* Make the entire top bar solid (no white pill) */
-.greedy-nav {
-  background: transparent !important;   /* remove white strip */
+
+/* Fixed header, white bar, dark links */
+.masthead {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 2000;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e6e6e6; /* subtle separator */
+}
+
+.masthead__inner-wrap,
+.masthead .wrapper,
+.masthead .masthead__menu .greedy-nav {
+  background: #ffffff !important;
   box-shadow: none !important;
   border: 0 !important;
   border-radius: 0 !important;
 }
 
-/* ==== NAV BAR: light background with dark links ==== */
-
-/* Make the top bar a clean white background */
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu,
-.masthead .wrapper,
-.masthead .masthead__menu .greedy-nav {
-  background-color: #ffffff !important;
-  color: #222222 !important; /* dark text color */
-  border: none !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-}
-
-/* Make sure all navigation links are dark and readable */
+/* Readable nav links (dark) */
 .masthead .greedy-nav a,
 .masthead .greedy-nav .visible-links > li > a,
 .masthead .greedy-nav .site-title,
 .masthead .greedy-nav .toggle,
 .masthead .greedy-nav .search__toggle {
-  color: #222222 !important; /* dark text color */
+  color: #222 !important;
   font-weight: 500;
 }
 
-/* Hover color (slightly accent, optional) */
 .masthead .greedy-nav a:hover,
 .masthead .greedy-nav .visible-links > li > a:hover,
 .masthead .greedy-nav .site-title:hover {
-  color: #0056b3 !important; /* navy accent on hover */
+  color: #0056b3 !important;
 }
 
-/* Prevent any nested elements from reintroducing color blocks */
-.masthead .greedy-nav * {
-  background: transparent !important;
+/* Push content below fixed header */
+html, body, .page, .page__inner, .page__content, .initial-content {
+  padding-top: 150px !important; /* adjust 130–170 if needed */
 }
 
-/* Keep header visible when scrolling */
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-.initial-content {
-  padding-top: 3.25rem;
-}
+/* Tiny nudge for avatar if desired */
+.author__avatar { margin-top: 0.5rem !important; }
 
-/* --- Keep header visible while scrolling and avoid overlap --- */
-.masthead {
-  position: sticky;   /* or use fixed if you prefer */
-  top: 0;
-  z-index: 1000;
-  border-bottom: 1px solid #e6e6e6;  /* subtle separator (optional) */
-}
-
-/* Push content below the sticky header */
-.initial-content {
-  padding-top: 180px !important;  /* adjust: 120–160 depending on your header height */
-}
-
-/* Extra nudge for the author avatar if needed */
-.author__avatar {
-  margin-top: 0.5rem !important;
+/* Mobile header tends to be taller */
+@media (max-width: 900px) {
+  html, body, .page, .page__inner, .page__content, .initial-content {
+    padding-top: 170px !important;
+  }
 }
