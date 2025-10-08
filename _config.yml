@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Aishwarya Ghosh"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Aishwarya Ghosh"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "/images/profile.jpg"
   name             : "Aishwarya Ghosh"
   pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
