@@ -6,6 +6,7 @@ My research focuses on applied microeconomics, industrial organization, and envi
 In my recent research, I explore how targeted policy interventions and market institutions shape pricing, adoption, and firm behavior in emerging clean-technology markets, with a focus on the electric vehicle (EV) sector.
 
 [aishwarya.ghosh@utah.edu](aishwarya.ghosh@utah.edu)
+
 260 S Central Campus Dr #4100 
 Salt Lake City,
 UT 84112
