@@ -110,3 +110,25 @@ html, body, .page, .page__inner, .page__content, .initial-content {
     padding-top: 170px !important;
   }
 }
+/* ---- FIX THE BIG GAP: move both columns together ---- */
+
+/* 1) Undo any earlier global/top paddings */
+html, body, .page, .page__inner, .page__content, .initial-content { 
+  padding-top: 0 !important; 
+}
+
+/* 2) Apply spacing only to the shared wrapper */
+.initial-content { 
+  padding-top: 130px !important;   /* adjust 120–150 to match your fixed header height */
+}
+
+/* 3) Make sure the sidebar doesn't add its own offset */
+.sidebar { 
+  margin-top: 0 !important; 
+  padding-top: 0 !important; 
+}
+
+/* If your header is taller on small screens, bump it there */
+@media (max-width: 900px) {
+  .initial-content { padding-top: 150px !important; }
+}
