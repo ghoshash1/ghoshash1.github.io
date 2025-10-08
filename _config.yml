@@ -26,9 +26,7 @@ author:
   name             : "Aishwarya Ghosh"
   pronouns         : "she/her"  
   #bio              : "Short biography for the left-hand sidebar"
-  location: |
-  260 S Central Campus Dr #4100
-  Salt Lake City, Utah, 84102
+  location:        : "260 S Central Campus Dr #4100 Salt Lake City, Utah, 84102"
   employer         : "University of Utah"
   uri              : # URL
   email            : "aishwarya.ghosh@utah.edu" 
