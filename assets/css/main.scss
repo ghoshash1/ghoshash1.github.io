@@ -47,13 +47,17 @@
 
 /* ===== CLEAN FINAL HEADER + SPACING ===== */
 
-/* Make the whole site white */
-html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .sidebar {
-  background: #ffffff !important;
+// =======================================================
+// FINAL: white site, fixed header, no overlap, no weird gaps
+// =======================================================
+
+/* Global look */
+html, body, .page, .page__inner, .page__content, .wrapper, .sidebar {
+  background: #fff !important;
   color: #111 !important;
 }
 
-/* Hide the footer entirely (keep only this version) */
+/* Hide footer entirely */
 .page__footer, .page__footer-follow, .site-footer, .footer, .footer__inner {
   display: none !important;
   height: 0 !important;
@@ -62,25 +66,30 @@ html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .si
   visibility: hidden !important;
 }
 
-/* Fixed header, white bar, dark links */
+/* ---- Fixed masthead (header) ---- */
+:root { --masthead-h: 120px; }             /* desktop header height; tweak if needed */
+
 .masthead {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 2000;
-  background: #ffffff !important;
-  border-bottom: 1px solid #e6e6e6; /* subtle separator */
+  height: var(--masthead-h);
+  display: flex; align-items: center;      /* vertically center links */
+  background: #fff !important;
+  border-bottom: 1px solid #e6e6e6;
 }
 
+/* Keep header internals clean */
 .masthead__inner-wrap,
 .masthead .wrapper,
 .masthead .masthead__menu .greedy-nav {
-  background: #ffffff !important;
-  box-shadow: none !important;
+  background: #fff !important;
   border: 0 !important;
   border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
-/* Readable nav links (dark) */
+/* Dark, readable nav links */
 .masthead .greedy-nav a,
 .masthead .greedy-nav .visible-links > li > a,
 .masthead .greedy-nav .site-title,
@@ -89,46 +98,27 @@ html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .si
   color: #222 !important;
   font-weight: 500;
 }
-
 .masthead .greedy-nav a:hover,
 .masthead .greedy-nav .visible-links > li > a:hover,
 .masthead .greedy-nav .site-title:hover {
   color: #0056b3 !important;
 }
 
-/* Push content below fixed header */
-html, body, .page, .page__inner, .page__content, .initial-content {
-  padding-top: 150px !important; /* adjust 130–170 if needed */
+/* ---- Single spacer that moves BOTH columns together ---- */
+body::before {
+  content: "";
+  display: block;
+  height: var(--masthead-h);
 }
 
-/* Tiny nudge for avatar if desired */
-.author__avatar { margin-top: 0.5rem !important; }
+/* Remove any other offsets so nothing fights the spacer */
+html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .sidebar {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.author__avatar { margin-top: 0 !important; }
 
-/* Mobile header tends to be taller */
+/* Header is taller on small screens */
 @media (max-width: 900px) {
-  html, body, .page, .page__inner, .page__content, .initial-content {
-    padding-top: 170px !important;
-  }
-}
-/* ---- FIX THE BIG GAP: move both columns together ---- */
-
-/* 1) Undo any earlier global/top paddings */
-html, body, .page, .page__inner, .page__content, .initial-content { 
-  padding-top: 0 !important; 
-}
-
-/* 2) Apply spacing only to the shared wrapper */
-.initial-content { 
-  padding-top: 130px !important;   /* adjust 120–150 to match your fixed header height */
-}
-
-/* 3) Make sure the sidebar doesn't add its own offset */
-.sidebar { 
-  margin-top: 0 !important; 
-  padding-top: 0 !important; 
-}
-
-/* If your header is taller on small screens, bump it there */
-@media (max-width: 900px) {
-  .initial-content { padding-top: 150px !important; }
+  :root { --masthead-h: 150px; }          /* increase if mobile header is taller */
 }
