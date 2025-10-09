@@ -79,12 +79,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Understanding responses of people with ASD in diverse reasoning tasks: A formal study, 2025 with Torben Brauner and Sujata Ghosh'     
-  conferences:
-    title: 'Conference Papers'
+  published:
+    title: "Published papers"
+  working:
+    title: "Working papers"
+  wip:
+    title: "Work in progress"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
