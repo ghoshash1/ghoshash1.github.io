@@ -1,0 +1,18 @@
+/* Custom style for research/publications page */
+
+/* Make publication titles smaller */
+.page__content .archive__item-title {
+  font-size: 1.1rem !important;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Optional: reduce space below title */
+.page__content .archive__item-title + p {
+  margin-top: 0.2rem;
+}
+
+/* (Optional) Only affect the Research page */
+.page__content.research-page .archive__item-title {
+  font-size: 1.05rem !important;
+}
