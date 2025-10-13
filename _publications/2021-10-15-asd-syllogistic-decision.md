@@ -4,7 +4,7 @@ collection: publications
 category: published
 date: 2021-10-15
 venue: "Lecture Notes in Computer Science, Vol. 12524, Springer, pp. 118–128 (SEFM 2020 Workshops, Amsterdam)"
-paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-67220-2_10"  # optional: add DOI or Springer link
+paperurl: "https://doi.org/10.1007/978-3-030-67220-1_10"  # optional: add DOI or Springer link
 excerpt: "By integrating behavioral economics and cognitive theory to analyze reasoning and decision-making in Autism Spectrum Disorder, the study identifies distinct contextual effects across tasks using Marr’s cognitive framework."
 citation: "Bräuner, T., Ghosh, A., & Ghosh, S. (2021). *Understanding responses of individuals with ASD in syllogistic and decision-making tasks: A formal study.* Lecture Notes in Computer Science, Vol. 12524, Springer, pp. 118–128 (SEFM 2020 Workshops, Amsterdam)."
 ---
