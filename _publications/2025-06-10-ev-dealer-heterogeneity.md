@@ -6,5 +6,5 @@ date: 2025-06-10
 excerpt: "Examines how variations in dealership participation and exposure shape the equity and effectiveness of electric vehicle subsidy programs."
 venue: "Work in Progress"
 paperurl: ""
-citation: "Ghosh, A. (in progress)."
+citation: "Ghosh, A."
 ---
