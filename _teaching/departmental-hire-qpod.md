@@ -1,5 +1,5 @@
 ---
-title: "Departmental Hire – Quantitative Methods Tutor (QPod)"
+title: "Tutoring"
 collection: teaching
 venue: "The University of Utah"
 date: 2023-05-01
