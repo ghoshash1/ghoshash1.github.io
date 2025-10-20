@@ -2,7 +2,7 @@
 title: "Dealers, Pricing, and Local Market Dynamics of Targeted EV Subsidies"
 collection: publications
 category: working
-date: 2025-01-15
+date: 2025-01-14
 excerpt: "Job Market Paper. Analyzes how dealers respond to targeted EV subsidies in California, focusing on price pass-through, market competition, and distributional effects across communities."
 venue: "Job Market Paper"
 author: "Aishwarya Ghosh"
