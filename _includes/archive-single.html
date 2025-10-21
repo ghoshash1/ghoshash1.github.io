@@ -55,8 +55,8 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    {% if post.category != 'published' and post.paperurl %}
-  <p><a href="{{ post.paperurl }}" target="_blank" rel="noopener">View most recent version</a></p>
+  {% if post.jmp and post.recenturl %}
+  <p><a href="{{ post.recenturl }}" target="_blank" rel="noopener">View most recent version</a></p>
 {% endif %}
     
     {% if post.citation and (post.category == 'published') and post.paperurl and post.slidesurl and post.bibtexurl %}
