@@ -43,8 +43,8 @@
        {% elsif post.collection == 'publications' %}
   {% if post.category == 'published' %}
     <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-  {% elsif post.venue contains 'Work in Progress' %}
-    <!-- Hide venue line if it explicitly says "Work in Progress" -->
+  {% elsif post.category == 'working' %}
+    <!-- Hide venue/date line for Work in Progress -->
   {% else %}
     {% if post.venue %}
       <p><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
