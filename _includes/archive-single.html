@@ -38,15 +38,18 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-     {% if post.collection == 'teaching' %}
-  <!-- Suppress teaching metadata -->
+    {% if post.collection == 'teaching' %}
+  <!-- no meta for teaching -->
 
 {% elsif post.collection == 'publications' %}
   {% if post.category == 'published' %}
     <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-  {% elsif post.category == 'working' or post.venue contains 'Work in Progress' %}
-    <!-- Hide venue/date for Work in Progress -->
+
+  {% elsif post.category == 'wip' or post.venue contains 'Work in Progress' %}
+    <!-- hide venue/date for Work in Progress -->
+
   {% else %}
+    {# working papers and any other non-published categories #}
     {% if post.venue %}
       <p><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
     {% endif %}
