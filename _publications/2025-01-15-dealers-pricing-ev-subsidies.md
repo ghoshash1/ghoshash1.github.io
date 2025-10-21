@@ -6,6 +6,6 @@ date: 2025-01-14
 excerpt: "Analyzes how dealers respond to targeted EV subsidies in California, focusing on price pass-through, market competition, and distributional effects across communities."
 venue: "Job Market Paper (Draft Available on Request)"
 author: "Aishwarya Ghosh"
-paperurl: "https://www.overleaf.com/read/hqpfypbcpmpq#e8db00"
+paperurl: "https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&usp=drive_fs"
 citation: "Ghosh, A."
 ---
