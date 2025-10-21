@@ -5,5 +5,5 @@ category: wip
 date: 2025-06-10
 venue: "Work in Progress"
 paperurl: ""
-citation: "Ghosh, A., 2025"
+citation: "Ghosh, A."
 ---
