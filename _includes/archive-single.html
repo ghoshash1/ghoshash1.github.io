@@ -40,14 +40,15 @@
 
       {% if post.collection == 'teaching' %}
   <!-- Suppress teaching metadata -->
-        {% elsif post.collection == 'publications' %}
        {% elsif post.collection == 'publications' %}
   {% if post.category == 'published' %}
     <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-  {% elsif post.category == 'working' %}
-    <!-- Suppress redundant "Work in Progress" line -->
+  {% elsif post.venue contains 'Work in Progress' %}
+    <!-- Hide venue line if it explicitly says "Work in Progress" -->
   {% else %}
-    <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% if post.venue %}
+      <p><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+    {% endif %}
   {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
