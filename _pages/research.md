@@ -32,8 +32,6 @@ redirect_from:
 
 <div class="rp">
 
-<p class="intro">My research is in environmental and energy economics, public economics, and industrial organization, with a second line of work in behavioral and experimental economics. I study how the design of public programs, such as who delivers a subsidy, where infrastructure is built, and which households are targeted, determines what those programs actually achieve in markets.</p>
-
 <h2 class="sec">Job Market Paper</h2>
 
 <div class="paper">
@@ -46,7 +44,7 @@ redirect_from:
   <p class="s">Presented at WEAI 2026; Applied Young Economists Webinar (Monash) 2026; Eastern Economic Association 2024; Western States Graduate Workshop 2023; Applied Microeconomics Workshop, University of Utah 2023</p>
 </div>
 
-<h2 class="sec">Research in Progress</h2>
+<h2 class="sec"> Ongoing Research </h2>
 
 <h3 class="field">Environmental and Energy Economics</h3>
 
@@ -56,7 +54,7 @@ redirect_from:
   <div class="abs">
     <p>We estimate the effect of tree cover on several categories of crime. To identify this relationship, we use an instrumental variables approach that takes advantage of a shock to tree cover induced by the introduction and spread of the emerald ash borer, an invasive beetle that targets ash trees. We combine geolocated data on crime, lidar-derived tree cover, and ash borer detections for a five-year period in Milwaukee, Wisconsin. Our estimates indicate that tree cover has a robust negative impact on nonviolent crime, driven by reductions in property crime. We find weak evidence in favor of temperature as one mechanism through which trees may affect crime. Spillovers resulting from tree cover loss in nearby areas appear to play no significant role in crime dynamics.</p>
   </div>
-  <p class="s">Draft available on request. Supported by Arnold Ventures, "Urban Trees and Social Outcomes" (PI: Alberto Garcia).</p>
+  <p class="s">Draft available on request. Supported by the grant from Arnold Ventures, "Urban Trees and Social Outcomes".</p>
 </div>
 
 <div class="paper">
@@ -71,16 +69,16 @@ redirect_from:
   <div class="abs">
     <p>The relationship between depression and risk preferences remains contested, with mixed evidence on whether individuals with depression are more risk-averse or risk-seeking than their non-depressed counterparts. This paper provides a systematic comparison of the depression–risk relationship across five distinct elicitation methods (the Holt-Laury multiple price list, Eckel-Grossman gamble choice, Gneezy-Potters investment task, Balloon Analogue Risk Task, and Domain-Specific Risk-Taking Scale) administered to comparable samples recruited from the same online platform with identical demographic stratification. We find that across measures, the general trend is toward lower risk aversion among individuals with depression, which manifests most clearly in the Holt-Laury task. A post-task survey suggests that this task's sequential structure and balance between deliberation and complexity allow it to detect preference differences that simpler instruments miss. For self-reported measures, our results highlight a divergence between general and domain-specific risk attitudes. Individuals with depression report lower willingness to take risks in general but higher willingness in health-specific contexts.</p>
   </div>
-  <p class="s">Under review. Draft available on request. Supported by the University of Utah Clinical and Translational Science Institute.</p>
+  <p class="s">Under review. Draft available on request. Supported by the grant from University of Utah Clinical and Translational Science Institute.</p>
 </div>
 
 <div class="paper">
   <p class="t">Risk Tolerance and Electric Vehicle Adoption: A Multi-Method Comparison of Risk Measures</p>
   <p class="a">with Peilu Zhang</p>
-  <p class="s">Supported by the University of Utah Clinical and Translational Science Institute.</p>
+  <p class="s">Supported by the grant from University of Utah Clinical and Translational Science Institute.</p>
 </div>
 
-<h2 class="sec">Publications</h2>
+<h2 class="sec">Academic Publications</h2>
 
 <div class="paper">
   <p class="t">Understanding responses of people with ASD in diverse reasoning tasks: A formal study</p>
