@@ -8,4 +8,6 @@ My job market paper studies how the organization of the supply chain shapes the 
 
 My dissertation has been awarded the Wilkes Dissertation Fellowship by the [Wilkes Center for Climate Science and Policy, University of Utah] (https://wilkescenter.utah.edu/) and I will present this work at the Wilkes Climate Summit in 2027.
 
-Beyond research, I enjoy cooking and paper art, from monochrome drawing to watercolor painting.
+I have teaching experience in Microeconomics, Public Policy, Econometrics and Statistics and Mathematics for Economists at the graduate and undergraduate level.
+
+Beyond living an academic life, I enjoy cooking and paper art, from monochrome drawing to watercolor painting.
