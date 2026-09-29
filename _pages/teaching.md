@@ -66,9 +66,6 @@ author_profile: true
 <div class="course"><span class="c">Feminist Economics</span><span class="terms">Fall 2022</span></div>
 <div class="course"><span class="c">U.S. Economic History</span><span class="terms">Spring 2023</span></div>
 
-<p class="sub">University of Hyderabad, Department of Economics</p>
-<div class="course"><span class="c">Game Theory I</span><span class="terms">Spring 2017</span></div>
-
 <h2 class="sec">Tutoring</h2>
 <p class="where">University of Utah, Department of Economics</p>
 
