@@ -89,3 +89,11 @@ html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .si
 .author__content {
   margin-top: 1.5rem !important;
 }
+/* ===== Larger profile photo in the sidebar ===== */
+@media (min-width: 925px) {
+  .author__avatar img {
+    width: 230px !important;
+    max-width: 100% !important;
+    height: auto;
+  }
+}
