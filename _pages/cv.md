@@ -24,7 +24,7 @@ classes: wide
 
 <div class="bar">
   <span class="upd">Last updated: September 2026</span>
-  <span><a class="lk" href="{{ '/files/cv.pdf' | relative_url }}?v=2026-09" target="_blank" rel="noopener">[Open in new tab]</a><a class="lk" href="{{ '/files/cv.pdf' | relative_url }}?v=2026-09" download="CV_Aishwarya_Ghosh.pdf">[Download PDF]</a></span>
+   <span><a class="lk" href="{{ '/files/cv.pdf' | relative_url }}?v=2026-09" target="_blank" rel="noopener">[Open in new tab]</a></span>
 </div>
 
 <iframe src="{{ '/files/cv.pdf' | relative_url }}?v=2026-09#view=FitH" title="Aishwarya Ghosh, CV" loading="lazy"></iframe>
