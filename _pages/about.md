@@ -21,9 +21,7 @@ redirect_from:
 
 <div class="rp">
 
-<p class="jm">I am on the 2026–2027 job market. <a href="/research/">[Job Market Paper]</a> <a href="/cv/">[CV]</a></p>
-
-<p>I am a PhD candidate in the <a href="https://www.econ.utah.edu/" target="_blank" rel="noopener">Department of Economics at the University of Utah and I am currently on the 2026-2027 job market. </a>.</p>
+<p class="jm">I am a PhD candidate in the <a href="https://www.econ.utah.edu/" target="_blank" rel="noopener">Department of Economics at the University of Utah</a> and currently on the 2026–2027 job market. <a href="/research/">[Job Market Paper]</a> <a href="/cv/">[CV]</a></p>
 
 <p>I am an applied environmental economist studying how the design of environmental policy, and the markets that deliver it, shape who benefits. More broadly, I am interested in how the effects of environmental change are distributed across people and places, and in the household decisions that determine who takes up new technologies.</p>
 
