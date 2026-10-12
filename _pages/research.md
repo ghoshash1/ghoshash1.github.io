@@ -35,10 +35,29 @@ redirect_from:
 <h2 class="sec">Job Market Paper</h2>
 
 <div class="paper">
-  <p class="t">Dealers, Pricing, and Local Market Dynamics of Targeted EV Subsidies: Evidence from California</p>
- <p class="a"><a class="lk" style="color:#999 !important; cursor:default; pointer-events:none;">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
+  <p class="t">Does It Matter Who Sells the Car? - Regulation and Incidence of a Targeted Electric
+Vehicle Subsidy</p>
+<p class="a"><a class="lk" style="cursor:default; pointer-events:none;">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
   <div class="abs">
-    <p>This study examines how targeted electric vehicle (EV) subsidies affect prices and sales in mature markets, focusing on the Bay Area rollout of California's Clean Cars 4 All (CC4A) program. Introduced in 2019 as a means-tested "retire-and-replace" initiative, CC4A required that subsidies be redeemed exclusively through participating dealers. By linking ZIP-code–level program exposure to the universe of California Department of Motor Vehicles registrations (2015–2023) and applying a difference-in-differences framework, the analysis finds that CC4A exposure was associated with modest but statistically significant increases in EV prices of approximately 1–1.5 percent (around $500 per vehicle). At the same time, EV registrations in treated areas expanded more slowly than in comparable control regions, with cumulative transactions 20–40 percent lower two years after rollout. Dealer-level heterogeneity further reveals that participating franchise dealers exhibited modest price pass-through with limited changes in sales, Tesla maintained stable prices but experienced sharp volume declines under binding supply constraints, and non-participating dealers registered larger price increases despite stagnant sales. Overall, the results indicate that program effectiveness depends not only on subsidy generosity and targeting but also on institutional design, supply frictions, and dealer incentives.</p>
+    <p>I estimate how the launch of a targeted electric vehicle subsidy affects local transaction prices and
+sales, and whether the effect differs between dealers the program’s price rules reach and those they do not.
+To answer this, I exploit California’s Clean Cars 4 All subsidy program, launched in 2019, which restricts
+subsidy redemption to authorized dealerships that has to accept those rules, while dealers that do not enroll
+compete in the same local market under no such constraints. Linking transaction-level data on the universe
+of California EV sales from 2015 to 2023 to the subsidy program records, I estimate difference-in-differences
+specifications comparing buyers of the same make, model and model year in the same quarter, in the aggregate
+and by dealer participation channel. I first show that prices rose 0.6 to 1.0 percent in exposed relative to
+never-exposed areas, or $346 to $562 per vehicle, while sales grew more slowly. The aggregate price effect is
+at least three times as large as the entire program budget could generate if the subsidy were absorbed only
+into the prices of subsidized vehicles, pointing to a market-level price response rather than capture at the
+point of sale. I then show that the increase is concentrated outside the program. Prices rose 1.1 percent at
+non-participating dealers, where no buyer could redeem the subsidy, while at participating dealers the effect is
+statistically indistinguishable from zero and bounded above by $306, under 4 percent of the average subsidy.
+Tesla, which posts uniform national prices and does not respond locally, shows no effect either. Suggestive
+evidence points to a local market too tight to absorb the demand the program concentrates on a narrow set of
+eligible vehicles and participating dealers. Rules governing the sellers who redeem a subsidy can work where
+they apply and still leave the subsidy raising the cost of adoption elsewhere in the same market, for buyers it
+never reached in the communities it was designed to serve. </p>
     <p><i>Data:</i> Recovered vehicle model, trim, and configuration for 1.1 million California registrations by decoding Vehicle Identification Numbers with a random-forest classifier trained on NHTSA vehicle records.</p>
   </div>
   <p class="s">Presented at WEAI 2026; Applied Young Economists Webinar (Monash) 2026; Eastern Economic Association 2024; Western States Graduate Workshop 2023; Applied Microeconomics Workshop, University of Utah 2023</p>
