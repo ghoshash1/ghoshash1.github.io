@@ -27,7 +27,7 @@ redirect_from:
 
 <p class="jm">I am a PhD candidate in the <a href="https://www.econ.utah.edu/" target="_blank" rel="noopener">Department of Economics at the University of Utah</a> and currently on the 2026–2027 job market. <a href="/research/">[Job Market Paper]</a> <a href="/cv/">[CV]</a></p>
 
-<p>I am an applied environmental economist studying how the design of environmental policy, and the markets that deliver it, shape who benefits. More broadly, I am interested in how the effects of environmental change are distributed across people and places, and in the household decisions that determine who takes up new technologies.</p>
+<p>My research is in environmental and energy economics, where I am interested in studying the social and distributional consequences of environmental policies and environmental change. In my dissertation and current research projects, I focus on how program design, markets, and household preferences shape these outcomes.</p>
 
 <p>My <a href="/research/">job market paper</a> studies how the organization of the supply chain shapes the benefits of a targeted subsidy. Electric vehicles are unusual in that they are sold both through franchised dealers and directly by manufacturers, and I use the institutional design of a targeted EV subsidy program, together with transaction-level vehicle registration records, to separate the effects of dealer intermediation from those of the subsidy itself.</p>
 
