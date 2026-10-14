@@ -27,11 +27,11 @@ redirect_from:
 
 <p class="jm">I am a PhD candidate in the <a href="https://www.econ.utah.edu/" target="_blank" rel="noopener">Department of Economics at the University of Utah</a> and currently on the 2026–2027 job market. <a href="/research/">[Job Market Paper]</a> <a href="/cv/">[CV]</a></p>
 
-<p>My research is in environmental and energy economics, where I am interested in studying the social and distributional consequences of environmental policies and environmental change. In my dissertation and current research projects, I focus on how program design, markets, and household preferences shape these outcomes.</p>
+<p>My research is in environmental and energy economics, where I study how the costs and benefits of environmental policy and environmental change are distributed. I bring an industrial organization perspective to these questions, asking how market structure and regulatory design mediate the incidence of policy. I am also interested more broadly in how behavioral factors shape whether environmental policies are politically feasible and whether they work./p>
 
-<p>My <a href="/research/">job market paper</a> studies how the organization of the supply chain shapes the benefits of a targeted subsidy. Electric vehicles are unusual in that they are sold both through franchised dealers and directly by manufacturers, and I use the institutional design of a targeted EV subsidy program, together with transaction-level vehicle registration records, to separate the effects of dealer intermediation from those of the subsidy itself.</p>
+<p>My <a href="/research/">job market paper</a> studies how the organization of the retail market shapes who gains from a targeted subsidy. Electric vehicles are unusual in that they are sold both through franchised dealers and directly by manufacturers, and I use the institutional design of a targeted EV subsidy program, together with transaction-level vehicle registration records, to ask how prices respond across the sellers the program’s rules bind and those they do not.</p>
 
-<p>My dissertation has been awarded the Wilkes Dissertation Fellowship by the <a href="https://wilkescenter.utah.edu/" target="_blank" rel="noopener">Wilkes Center for Climate Science and Policy, University of Utah</a>, and I will present this work at the Wilkes Climate Summit in 2027.</p>
+<p>My dissertation has been recently awarded the Wilkes Dissertation Fellowship by the <a href="https://wilkescenter.utah.edu/" target="_blank" rel="noopener">Wilkes Center for Climate Science and Policy, University of Utah</a>, and I will present this work at the Wilkes Climate Summit in 2027.</p>
 
 <p>I have teaching experience in microeconomics, public policy, econometrics and statistics, and mathematics for economists at the graduate and undergraduate levels.</p>
 
