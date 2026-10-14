@@ -35,7 +35,7 @@ redirect_from:
 
 <p>I have teaching experience in microeconomics, public policy, econometrics and statistics, and mathematics for economists at the graduate and undergraduate levels.</p>
 
-<p class="aside">Beyond academic life, I enjoy cooking and paper art, from monochrome drawing to watercolor painting.Here are some snippets from my sketchbook.</p>
+<p class="aside">Beyond academic life, I enjoy cooking and all forms of art. Here are some snippets from my sketchbook.</p>
 
 <div class="art">
   <a href="/images/art-sun.jpg" target="_blank" rel="noopener" style="flex-grow:0.729"><img src="/images/art-sun.jpg" alt="Watercolor of a sun over waves" loading="lazy"></a>
