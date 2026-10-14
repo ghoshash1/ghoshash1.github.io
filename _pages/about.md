@@ -27,7 +27,7 @@ redirect_from:
 
 <p class="jm">I am a PhD candidate in the <a href="https://www.econ.utah.edu/" target="_blank" rel="noopener">Department of Economics at the University of Utah</a> and currently on the 2026–2027 job market. <a href="/research/">[Job Market Paper]</a> <a href="/cv/">[CV]</a></p>
 
-<p>My research is in environmental and energy economics, where I study how the costs and benefits of environmental policy and environmental change are distributed. I bring an industrial organization perspective to these questions, asking how market structure and regulatory design mediate the incidence of policy. I am also interested more broadly in how behavioral factors shape whether environmental policies are politically feasible and whether they work./p>
+<p>My research is in environmental and energy economics, where I study how the costs and benefits of environmental policy and environmental change are distributed. I bring an industrial organization perspective to these questions, asking how market structure and regulatory design mediate the incidence of policy. I am also interested more broadly in how behavioral factors shape whether environmental policies are politically feasible and whether they work.</p>
 
 <p>My <a href="/research/">job market paper</a> studies how the organization of the retail market shapes who gains from a targeted subsidy. Electric vehicles are unusual in that they are sold both through franchised dealers and directly by manufacturers, and I use the institutional design of a targeted EV subsidy program, together with transaction-level vehicle registration records, to ask how prices respond across the sellers the program’s rules bind and those they do not.</p>
 
