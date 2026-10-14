@@ -97,3 +97,7 @@ html, body, .page, .page__inner, .page__content, .initial-content, .wrapper, .si
     height: auto;
   }
 }
+/* ===== Soft off-white background ===== */
+html, body, .masthead, .greedy-nav, .initial-content, .page, .sidebar {
+  background: #faf9f6 !important;
+}
