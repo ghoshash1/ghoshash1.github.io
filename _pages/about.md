@@ -45,4 +45,3 @@ redirect_from:
   <a href="/images/art-cloud.jpg" target="_blank" rel="noopener" style="flex-grow:0.78"><img src="/images/art-cloud.jpg" alt="Pencil drawing of a figure with a cloud for a head" loading="lazy"></a>
 </div>
 
-</div>
