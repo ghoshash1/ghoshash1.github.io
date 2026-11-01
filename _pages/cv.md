@@ -23,7 +23,7 @@ classes: wide
 <div class="rp">
 
 <div class="bar">
-  <span class="upd">Last updated: October 2026</span>
+  <span class="upd">Last updated: November 2026</span>
    <span><a class="lk" href="{{ '/files/cv.pdf' | relative_url }}?v=2026-10" target="_blank" rel="noopener">[Open in new tab]</a></span>
 </div>
 
