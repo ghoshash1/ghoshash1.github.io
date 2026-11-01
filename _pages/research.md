@@ -37,27 +37,8 @@ redirect_from:
 <div class="paper">
   <p class="t">Does It Matter Who Sells the Car? - Regulation and Incidence of a Targeted Electric
 Vehicle Subsidy</p>
-<p class="a"><a class="lk" style="cursor:default; pointer-events:none;">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
-  <div class="abs">
-    <p>I estimate how the launch of a targeted electric vehicle subsidy affects local transaction prices and
-sales, and whether the effect differs between dealers the program’s price rules reach and those they do not.
-To answer this, I exploit California’s Clean Cars 4 All subsidy program, launched in 2019, which restricts
-subsidy redemption to authorized dealerships that has to accept those rules, while dealers that do not enroll
-compete in the same local market under no such constraints. Linking transaction-level data on the universe
-of California EV sales from 2015 to 2023 to the subsidy program records, I estimate difference-in-differences
-specifications comparing buyers of the same make, model and model year in the same quarter, in the aggregate
-and by dealer participation channel. I first show that prices rose 0.6 to 1.0 percent in exposed relative to
-never-exposed areas, or $346 to $562 per vehicle, while sales grew more slowly. The aggregate price effect is
-at least three times as large as the entire program budget could generate if the subsidy were absorbed only
-into the prices of subsidized vehicles, pointing to a market-level price response rather than capture at the
-point of sale. I then show that the increase is concentrated outside the program. Prices rose 1.1 percent at
-non-participating dealers, where no buyer could redeem the subsidy, while at participating dealers the effect is
-statistically indistinguishable from zero and bounded above by $306, under 4 percent of the average subsidy.
-Tesla, which posts uniform national prices and does not respond locally, shows no effect either. Suggestive
-evidence points to a local market too tight to absorb the demand the program concentrates on a narrow set of
-eligible vehicles and participating dealers. Rules governing the sellers who redeem a subsidy can work where
-they apply and still leave the subsidy raising the cost of adoption elsewhere in the same market, for buyers it
-never reached in the communities it was designed to serve. </p>
+<p class="a"><a class="lk" href="https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&amp;usp=drive_fs" target="_blank" rel="noopener">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
+    <p> Means-tested electric vehicle subsidies increasingly restrict who may sell the car. I estimate how a restriction of this kind affects local transaction prices and sales, and whether the effect differs between the dealers a program's price rules reach and the dealers they do not. California's Clean Cars 4 All program permits subsidy redemption only at dealerships that enroll with the air district and accept its terms on what may be charged for an eligible vehicle and on how that price is set, while dealers that do not enroll sell the same vehicles to the same buyers in the same ZIP codes under none of those terms. Linking the universe of California vehicle registrations from 2015 to 2023 to the subsidy program records, I estimate difference-in-differences specifications comparing buyers of the same make, model and model year in the same quarter, in the aggregate and by dealer participation status. I first show that prices in exposed areas rose relative to never-exposed areas while adoption grew more slowly, which is a combination a demand shift cannot produce. I then show that the increase is concentrated outside the program. Prices rose 1.1 percent at dealers where no subsidy could be redeemed, amounting to roughly $24 million in additional revenue over the period, against the $23.9 million the district disbursed to recipients. At participating dealers, where every subsidized purchase took place, the effect is indistinguishable from zero and the estimates rule out a price increase larger than four percent of the average award. The pattern is consistent with demand that the enrolled channel could not serve reaching dealers the program did not regulate. The channel that collected the increase served buyers from less affluent ZIP codes than the participating channel did. Rules governing the sellers who redeem a subsidy can work exactly where they apply and still leave the cost of the program with buyers it never reached. </p>
     <p><i>Data:</i> Recovered vehicle model, trim, and configuration for 1.1 million California registrations by decoding Vehicle Identification Numbers with a random-forest classifier trained on NHTSA vehicle records.</p>
   </div>
   <p class="s">Presented at WEAI 2026; Applied Young Economists Webinar (Monash) 2026; Eastern Economic Association 2024; Western States Graduate Workshop 2023; Applied Microeconomics Workshop, University of Utah 2023</p>
