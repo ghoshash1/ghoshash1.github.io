@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <style>
   .rp { font-family:"Raleway",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif; font-variant-numeric:lining-nums; color:#222; font-size:1em; line-height:1.5; }
@@ -18,7 +18,7 @@ redirect_from:
   .rp h2.sec:first-of-type { margin-top:0.5em; }
   .rp h3.field { font-family:inherit; font-size:1em; font-weight:500; font-style:italic; color:#555; margin:1.5em 0 0.8em; border:0; }
   .rp .paper { margin:0 0 1.15em; }
-  .rp .t { font-weight:600; color:#1a1a1a; }
+  .rp .t { font-weight:700; color:#1a1a1a; }
   .rp .a { color:#222; }
   .rp .s { color:#666; font-size:0.94em; }
   .rp .s i { color:#666; }
@@ -35,12 +35,10 @@ redirect_from:
 <h2 class="sec">Job Market Paper</h2>
 
 <div class="paper">
-  <p class="t">Does It Matter Who Sells the Car? - Regulation and Incidence of a Targeted Electric
-Vehicle Subsidy</p>
-<p class="a"><a class="lk" href="https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&amp;usp=drive_fs" target="_blank" rel="noopener">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p> <div class="abs">
+  <p class="t">Does It Matter Who Sells the Car? - Regulation and Incidence of a Targeted Electric Vehicle Subsidy</p>
+<p class="a"><a class="lk" href="https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&amp;usp=drive_fs" target="_blank" rel="noopener">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
+  <div class="abs">
     <p> Means-tested electric vehicle subsidies increasingly restrict who may sell the car. I estimate how a restriction of this kind affects local transaction prices and sales, and whether the effect differs between the dealers a program's price rules reach and the dealers they do not. California's Clean Cars 4 All program permits subsidy redemption only at dealerships that enroll with the air district and accept its terms on what may be charged for an eligible vehicle and on how that price is set, while dealers that do not enroll sell the same vehicles to the same buyers in the same ZIP codes under none of those terms. Linking the universe of California vehicle registrations from 2015 to 2023 to the subsidy program records, I estimate difference-in-differences specifications comparing buyers of the same make, model and model year in the same quarter, in the aggregate and by dealer participation status. I first show that prices in exposed areas rose relative to never-exposed areas while adoption grew more slowly, which is a combination a demand shift cannot produce. I then show that the increase is concentrated outside the program. Prices rose 1.1 percent at dealers where no subsidy could be redeemed, amounting to roughly $24 million in additional revenue over the period, against the $23.9 million the district disbursed to recipients. At participating dealers, where every subsidized purchase took place, the effect is indistinguishable from zero and the estimates rule out a price increase larger than four percent of the average award. The pattern is consistent with demand that the enrolled channel could not serve reaching dealers the program did not regulate. The channel that collected the increase served buyers from less affluent ZIP codes than the participating channel did. Rules governing the sellers who redeem a subsidy can work exactly where they apply and still leave the cost of the program with buyers it never reached. </p>
-
-   </div>
     <p><i>Data:</i> Recovered vehicle model, trim, and configuration for 1.1 million California registrations by decoding Vehicle Identification Numbers with a random-forest classifier trained on NHTSA vehicle records.</p>
   </div>
   <p class="s">Presented at WEAI 2026; Applied Young Economists Webinar (Monash) 2026; Eastern Economic Association 2024; Western States Graduate Workshop 2023; Applied Microeconomics Workshop, University of Utah 2023</p>
