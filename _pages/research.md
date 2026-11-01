@@ -37,8 +37,10 @@ redirect_from:
 <div class="paper">
   <p class="t">Does It Matter Who Sells the Car? - Regulation and Incidence of a Targeted Electric
 Vehicle Subsidy</p>
-<p class="a"><a class="lk" href="https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&amp;usp=drive_fs" target="_blank" rel="noopener">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p>
+<p class="a"><a class="lk" href="https://drive.google.com/open?id=1MOAXb2gWP-N9-L3FBnhuQf0kV8Wo5TBv&amp;usp=drive_fs" target="_blank" rel="noopener">[Paper]</a><a class="lk" data-abs>[Abstract]</a></p> <div class="abs">
     <p> Means-tested electric vehicle subsidies increasingly restrict who may sell the car. I estimate how a restriction of this kind affects local transaction prices and sales, and whether the effect differs between the dealers a program's price rules reach and the dealers they do not. California's Clean Cars 4 All program permits subsidy redemption only at dealerships that enroll with the air district and accept its terms on what may be charged for an eligible vehicle and on how that price is set, while dealers that do not enroll sell the same vehicles to the same buyers in the same ZIP codes under none of those terms. Linking the universe of California vehicle registrations from 2015 to 2023 to the subsidy program records, I estimate difference-in-differences specifications comparing buyers of the same make, model and model year in the same quarter, in the aggregate and by dealer participation status. I first show that prices in exposed areas rose relative to never-exposed areas while adoption grew more slowly, which is a combination a demand shift cannot produce. I then show that the increase is concentrated outside the program. Prices rose 1.1 percent at dealers where no subsidy could be redeemed, amounting to roughly $24 million in additional revenue over the period, against the $23.9 million the district disbursed to recipients. At participating dealers, where every subsidized purchase took place, the effect is indistinguishable from zero and the estimates rule out a price increase larger than four percent of the average award. The pattern is consistent with demand that the enrolled channel could not serve reaching dealers the program did not regulate. The channel that collected the increase served buyers from less affluent ZIP codes than the participating channel did. Rules governing the sellers who redeem a subsidy can work exactly where they apply and still leave the cost of the program with buyers it never reached. </p>
+
+   </div>
     <p><i>Data:</i> Recovered vehicle model, trim, and configuration for 1.1 million California registrations by decoding Vehicle Identification Numbers with a random-forest classifier trained on NHTSA vehicle records.</p>
   </div>
   <p class="s">Presented at WEAI 2026; Applied Young Economists Webinar (Monash) 2026; Eastern Economic Association 2024; Western States Graduate Workshop 2023; Applied Microeconomics Workshop, University of Utah 2023</p>
@@ -54,7 +56,7 @@ Vehicle Subsidy</p>
   <div class="abs">
     <p>We estimate the effect of tree cover on several categories of crime. To identify this relationship, we use an instrumental variables approach that takes advantage of a shock to tree cover induced by the introduction and spread of the emerald ash borer, an invasive beetle that targets ash trees. We combine geolocated data on crime, lidar-derived tree cover, and ash borer detections for a five-year period in Milwaukee, Wisconsin. Our estimates indicate that tree cover has a robust negative impact on nonviolent crime, driven by reductions in property crime. We find weak evidence in favor of temperature as one mechanism through which trees may affect crime. Spillovers resulting from tree cover loss in nearby areas appear to play no significant role in crime dynamics.</p>
   </div>
-  <p class="s">Draft available on request. Supported by the grant from Arnold Ventures, "Urban Trees and Social Outcomes".</p>
+  <p class="s">Draft available on request. Supported by the grant from Arnhold Ventures, "Urban Trees and Social Outcomes".</p>
 </div>
 
 <div class="paper">
