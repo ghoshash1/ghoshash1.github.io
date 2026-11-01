@@ -54,7 +54,7 @@ redirect_from:
   <div class="abs">
     <p>We estimate the effect of tree cover on several categories of crime. To identify this relationship, we use an instrumental variables approach that takes advantage of a shock to tree cover induced by the introduction and spread of the emerald ash borer, an invasive beetle that targets ash trees. We combine geolocated data on crime, lidar-derived tree cover, and ash borer detections for a five-year period in Milwaukee, Wisconsin. Our estimates indicate that tree cover has a robust negative impact on nonviolent crime, driven by reductions in property crime. We find weak evidence in favor of temperature as one mechanism through which trees may affect crime. Spillovers resulting from tree cover loss in nearby areas appear to play no significant role in crime dynamics.</p>
   </div>
-  <p class="s">Draft available on request. Supported by the grant from Arnhold Ventures, "Urban Trees and Social Outcomes".</p>
+  <p class="s">Draft available on request. Supported by the grant from Arnold Ventures, "Urban Trees and Social Outcomes".</p>
 </div>
 
 <div class="paper">
