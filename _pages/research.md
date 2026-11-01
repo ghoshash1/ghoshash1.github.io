@@ -73,7 +73,7 @@ redirect_from:
 </div>
 
 <div class="paper">
-  <p class="t">Risk Tolerance and Electric Vehicle Adoption: A Multi-Method Comparison of Risk Measures</p>
+  <p class="t">Risk Tolerance and the Decision to Consider an Electric Vehicle—An Experimental Study</p>
   <p class="a">with Peilu Zhang</p>
   <p class="s">Supported by the grant from University of Utah Clinical and Translational Science Institute.</p>
 </div>
