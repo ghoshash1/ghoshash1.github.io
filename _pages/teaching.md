@@ -50,12 +50,12 @@ author_profile: true
 <h2 class="sec">What Students Say</h2>
 <p class="qnote">Selected comments from official University of Utah student course feedback.</p>
 
+<blockquote class="q"><p>“Aishwarya was amazing at teaching. She has such a deep and personal understanding of everything in the course, being able to trace all of the advanced topics back to the basic ones to help people understand how we got there and why things matter.”</p></blockquote>
 <blockquote class="q"><p>“Professor Ghosh is quick to communicate and willing to spend time with each student to ensure they understand the material. Even in a large, asynchronous class, I felt my individual learning was being attended to.”</p></blockquote>
 <blockquote class="q"><p>“Aishwarya made this daunting topic much more digestible. She explained the math in this course very well and used examples to make it more grounded in economics. I thought her lectures were great and she had a fun personality in videos!”</p></blockquote>
-<blockquote class="q"><p>“Aishwarya was amazing at teaching. She has such a deep and personal understanding of everything in the course, being able to trace all of the advanced topics back to the basic ones to help people understand how we got there and why things matter.”</p></blockquote>
-<blockquote class="q"><p>“This a course that I've had to repeat to be able to grasp the material. This second go around was much more doable with Aishwarya as the instructor.”</p></blockquote>
-<blockquote class="q"><p>“Professor Ghosh is very knowledgeable and great at teaching. She doesn't rush through topics and teaches really well helping everyone understand the big picture concepts”</p></blockquote>
+<blockquote class="q"><p>“This a course that I’ve had to repeat to be able to grasp the material. This second go around was much more doable with Aishwarya as the instructor.”</p></blockquote>
 <blockquote class="q"><p>“The instructor was very committed to the coursework and very open to meeting with students and explaining anything in more detail. She was very responsive and on top of the modules each week. No complaints at all and I learned a lot.”</p></blockquote>
+<blockquote class="q"><p>“Professor Ghosh is very knowledgeable and great at teaching. She doesn’t rush through topics and teaches really well helping everyone understand the big picture concepts”</p></blockquote>
 <blockquote class="q"><p>“Aishwarya is an excellent teacher and an even better individual.”</p></blockquote>
 
 <h2 class="sec">Teaching Assistant</h2>
